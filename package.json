@@ -1,0 +1,29 @@
+{
+  "name": "looplens-ai-agent",
+  "version": "1.0.0",
+  "description": "AI agent for LoopLens prediction markets",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@coinbase/agentkit": "^0.10.3",
+    "@coinbase/coinbase-sdk": "^0.25.0",
+    "@langchain/core": "^0.3.78",
+    "@langchain/openai": "^0.3.17",
+    "axios": "^1.12.2",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.15.0",
+    "groq-sdk": "^0.34.0",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.12",
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
